@@ -94,7 +94,7 @@ if st.session_state.get('authentication_status'):
     st.write("")
     st.write("")
     
-    st.title("📄A Meeting Reports:")
+    st.title("📄 Meeting Reports:")
 
     reports = get_reports()
 
@@ -110,8 +110,8 @@ if st.session_state.get('authentication_status'):
 
 
     # Reload the page if new reports are detected
-    #if set(get_reports()) != set(reports):
-    #    st.rerun() 
+    if set(get_reports()) != set(reports):
+        st.rerun() 
 
 
 
