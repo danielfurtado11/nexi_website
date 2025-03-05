@@ -2,6 +2,7 @@ cookie:
   expiry_days: 30
   key: cookie_nexi_key
   name: cookie_nexi_name
+  domain: https://nexi-website.streamlit.app/
 credentials:
   usernames:
     andreneiva:
