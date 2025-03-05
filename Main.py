@@ -110,8 +110,8 @@ if st.session_state.get('authentication_status'):
 
 
     # Reload the page if new reports are detected
-    #if set(get_reports()) != set(reports):
-    #    st.rerun() 
+    if set(get_reports()) != set(reports):
+        st.rerun() 
 
 
 
