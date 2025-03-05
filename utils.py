@@ -20,7 +20,7 @@ def create_engagement_chart(df):
         gauge={'axis': {'range': [0, 1]}}
     ))
     fig.update_layout(
-        title="Avarege Engagement",
+        title="Average Engagement",
         title_x=0.36,
         title_font=dict(size=24)
     )
