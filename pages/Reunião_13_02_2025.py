@@ -489,10 +489,10 @@ with col2:
 
 
 if st.session_state.show_image_1623:
-    st.image(Image.open("pages/Reuniao_12_04_2025/Images/11_49.png"), caption="Low Engagement Moment", width=650)
+    st.image(Image.open("pages/Reuniao_13_02_2025/Images/11_49.png"), caption="Low Engagement Moment", width=650)
 
 if st.session_state.show_image_1625:
-    st.image(Image.open("pages/Reuniao_12_04_2025/Images/12_34.png"), caption="High Engagement Moment", width=650)
+    st.image(Image.open("pages/Reuniao_13_02_2025/Images/12_34.png"), caption="High Engagement Moment", width=650)
 
 st.write("")
 st.write("")
